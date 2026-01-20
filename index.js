@@ -8,7 +8,7 @@ app.use(express.json());
 // Add your Netlify URL here after deploy
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["http://localhost:3000","https://sparkling-daifuku-e639e3.netlify.app"],
     credentials: true,
   })
 );
